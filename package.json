@@ -1,0 +1,39 @@
+{
+  "name": "@qxy/vite-app",
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [
+    "vite",
+    "vite-app",
+    "templates"
+  ],
+  "description": "Scoffolding vite app of QXY fe team",
+  "author": {
+    "name": "ntnyq",
+    "email": "ntnyq13@gmail.com"
+  },
+  "main": "index.js",
+  "bin": {
+    "create-vite": "index.js"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "prettier": "@qxy/prettier-config",
+  "dependencies": {
+    "execa": "^5.0.0",
+    "kolorist": "^1.4.1",
+    "minimist": "^1.2.5",
+    "prompts": "^2.4.1"
+  },
+  "devDependencies": {
+    "@qxy/prettier-config": "^0.2.0",
+    "prettier": "^2.3.0"
+  },
+  "prettierIgnore": [
+    "node_modules",
+    "/dist",
+    "/static",
+    "*.min.*"
+  ]
+}
